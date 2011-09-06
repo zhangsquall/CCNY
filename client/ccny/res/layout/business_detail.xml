@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:stretchColumns="1"
+	android:background="@color/background" android:padding="10dp">
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/name" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/companyName" />
+			<TextView android:id="@+id/nameV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/companyName"
+				android:layout_gravity="right" />
+		</LinearLayout>
+
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp" android:divider="#ffff0000">
+			<TextView android:id="@+id/address" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/address" />
+			<TextView android:id="@+id/addressV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/address" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp" android:divider="#ffff0000">
+			<TextView android:id="@+id/apt" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/apt" />
+			<TextView android:id="@+id/aptV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/apt" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/city" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/city" />
+			<TextView android:id="@+id/cityV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/city" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/state" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/state" />
+			<TextView android:id="@+id/stateV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/state" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/zip" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/zip" />
+			<TextView android:id="@+id/zipV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/phone" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/phone" />
+			<TextView android:id="@+id/phoneV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/phone" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/coupon" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/coupon" />
+			<TextView android:id="@+id/couponV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/coupon" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/hoursOfOperation"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/font_color" android:textSize="22px"
+				android:text="@string/hoursOfOperation" />
+			<TextView android:id="@+id/hoursOfOperationV"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/font_color" android:textSize="22px"
+				android:text="@string/hoursOfOperation" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/deliver" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/deliver" />
+			<TextView android:id="@+id/deliverV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/deliver" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/mobile" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/mobile" />
+			<TextView android:id="@+id/mobileV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/mobile" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/fax" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/fax" />
+			<TextView android:id="@+id/faxV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/fax" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/paymentAccepted"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/font_color" android:textSize="22px"
+				android:text="@string/paymentAccepted" />
+			<TextView android:id="@+id/paymentAcceptedV"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/font_color" android:textSize="22px"
+				android:text="@string/paymentAccepted" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/website" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/website" />
+			<TextView android:id="@+id/websiteV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/website" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/email" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/email" />
+			<TextView android:id="@+id/emailV" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/font_color"
+				android:textSize="22px" android:text="@string/email" />
+		</LinearLayout>
+	</TableRow>
+	<View android:layout_height="1dip" android:background="#ffff0000" />
+	<TableRow>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="10dp" android:textSize="16sp">
+			<TextView android:id="@+id/countOfCertification"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/font_color" android:textSize="22px"
+				android:text="@string/countOfCertification" />
+			<TextView android:id="@+id/countOfCertificationV"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/font_color" android:textSize="22px"
+				android:text="@string/countOfCertification" />
+		</LinearLayout>
+	</TableRow>
+</TableLayout>

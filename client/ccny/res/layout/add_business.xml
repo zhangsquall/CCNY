@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:scrollbars="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="fill_parent"
+		android:background="@color/background">
+
+		<!--Put form controls here -->
+		<TextView android:id="@+id/TextFirstName" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="First Name:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditFirstName"
+			android:layout_height="wrap_content" android:hint="First Name"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextLastName" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Last Name:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditLastName"
+			android:layout_height="wrap_content" android:hint="Last Name"
+			android:layout_width="fill_parent">
+		</EditText>
+		<TextView android:id="@+id/TextCompanyName"
+			android:textColor="@color/text_color" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Company Name:"
+			android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditCompanyName"
+			android:layout_height="wrap_content" android:hint="Company Name"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextStreet" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Street Address:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditStreet" android:layout_height="wrap_content"
+			android:hint="Street Address" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextApt" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Apt/Suite/Office:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditApt" android:layout_height="wrap_content"
+			android:hint="Apt/Suite/Office" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextCity" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="City:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditCity" android:layout_height="wrap_content"
+			android:hint="City" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextState" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="State:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditState" android:layout_height="wrap_content"
+			android:hint="State" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextZip" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Zip Code:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditZip" android:layout_height="wrap_content"
+			android:hint="Zip Code" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextCounty" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="County:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditCounty" android:layout_height="wrap_content"
+			android:hint="County" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextEmail" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Email:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditEmail" android:layout_height="wrap_content"
+			android:hint="Email" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextPhone" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Phone Number:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditPhone" android:layout_height="wrap_content"
+			android:hint="Phone Number" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextFax" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Fax Number:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditFax" android:layout_height="wrap_content"
+			android:hint="Fax Number" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextMobile" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Mobile Number:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditMobile" android:layout_height="wrap_content"
+			android:hint="Mobile Number" android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextWebsite" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Website:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditWebsite"
+			android:layout_height="wrap_content" android:hint="Website"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextPayment" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Payments Accepted:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditPayment"
+			android:layout_height="wrap_content" android:hint="Cash, Visa, American Express, etc."
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/TextDeliver" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Do You Deliver?" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditDeliver"
+			android:layout_height="wrap_content" android:hint="Yes Or No"
+			android:layout_width="fill_parent">
+		</EditText>
+		<TextView android:id="@+id/TextHoursOfOperation"
+			android:textColor="@color/text_color" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Office Hour:"
+			android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditHoursOfOperation"
+			android:layout_height="wrap_content" android:hint="Office Hour"
+			android:layout_width="fill_parent">
+		</EditText>
+		<TextView android:id="@+id/TextCoupon" android:textColor="@color/text_color"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Coupon Address:" android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditCoupon" android:layout_height="wrap_content"
+			android:hint="Coupon Address" android:layout_width="fill_parent">
+		</EditText>
+		<TextView android:id="@+id/TextCountOfCertification"
+			android:textColor="@color/text_color" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Count Of Certification:"
+			android:textSize="10pt">
+		</TextView>
+		<EditText android:id="@+id/EditCountOfCertification"
+			android:layout_height="wrap_content" android:hint="Count Of Certification"
+			android:layout_width="fill_parent">
+		</EditText>
+
+	</LinearLayout>
+</ScrollView>  

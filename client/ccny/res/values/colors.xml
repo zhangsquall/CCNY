@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#ff9ec73d</color>
+	<color name="font_color">#ff000000</color>
+	<color name="divider_color">#ff208406</color>
+	<color name="text_color">#ff154515</color>
+	<color name="apple">#ff208406</color>
+</resources>

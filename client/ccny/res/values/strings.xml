@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<!-- Activity Titles -->
+	<string name="businesses_title">Businesses</string>
+	<string name="business_detail">BusinessDetail</string>
+	<string name="favorites_title">Favorites</string>
+	<string name="add_title">Add A Business</string>
+	<string name="about_title">About Application</string>
+	<string name="category_title">Category</string>
+	<string name="sort_title">Sort Out Businesses</string>
+	<string name="route_path">Path</string>
+
+
+	<!-- Main Activity Strings -->
+	<string name="businesses_label">Businesses</string>
+	<string name="favorites_label">Favorites</string>
+	<string name="add_label">Add Business</string>
+	<string name="about_label">About</string>
+	<string name="app_name">New York\'s Creative Core</string>
+
+	<!-- Sort Activity Strings -->
+	<string name="sortby_category_label">Search By Category</string>
+	<string name="sortby_location_label">Search By Location</string>
+	<string name="sortby_name_label">Search By Name</string>
+	<string name="list_all">List All Businesses</string>
+
+	<!-- Search Activity Strings -->
+	<string name="search_header">Search for a Business</string>
+	<string name="no_list_data">No Data Present</string>
+
+	<string name="about_text">\
+		IT IS FREE TO BE LISTED!\n\nWe hope you will
+		choose to take advantage
+		of this exciting opportunity to advertise your
+		business throughout
+		Central New York.
+		In order to participate we ask
+		that you complete a detailed form so
+		we can best categorize you and
+		place your business into this
+		application.
+	</string>
+	<string name="about_application">\
+		IT IS FREE APPLICATION!\n\n
+		more information please visit: \n\n
+		http://www.creativecoreny.com .
+	</string>
+	<string name="SAVE">SAVE</string>
+	<string name="ADD">ADD</string>
+	<string name="EDIT">EDIT</string>
+	<string name="DELETE">DELETE</string>
+	<string name="MAP">MAP</string>
+	<string name="s_view_btn">more</string>
+
+	<string name="custom_title_left">Left is best</string>
+	<string name="custom_title_right">Right is always right</string>
+	<string name="custom_title_left_button">Change Left</string>
+	<string name="custom_title_right_button">Change Right</string>
+
+	<!-- business detail -->
+	<string name="companyName">Company Name : </string>
+	<string name="address">Address : </string>
+	<string name="apt">Apt : </string>
+	<string name="city">City : </string>
+	<string name="state">State : </string>
+	<string name="zip">Zip : </string>
+	<string name="phone">Phone :  </string>
+	<string name="coupon">Coupon : </string>
+	<string name="hoursOfOperation">Hours Of Operation : </string>
+	<string name="deliver">Deliver : </string>
+	<string name="mobile">Mobile : </string>
+	<string name="fax">Fax : </string>
+	<string name="paymentAccepted">Payment Accepted : </string>
+	<string name="website">WebSite :  </string>
+	<string name="email">Email : </string>
+	<string name="countOfCertification">Count Of Certification : </string>
+
+</resources>

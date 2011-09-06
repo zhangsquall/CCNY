@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:background="@color/background" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:textColor="@color/text_color" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:orientation="horizontal"
+	android:gravity="center_vertical">
+	<LinearLayout android:orientation="vertical"
+		android:gravity="center_horizontal" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_gravity="center_vertical">
+		<TextView android:id="@+id/about_content"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:padding="25sp" android:gravity="center_vertical"
+			android:textColor="@color/text_color" android:textStyle="bold"
+			android:text="@string/about_text" />
+		<Button android:id="@+id/continue_button" android:textColor="@color/text_color"
+			android:textStyle="bold" android:layout_width="175sp"
+			android:layout_height="45sp" android:text="Continue"
+			android:background="@drawable/custom_button" />
+	</LinearLayout>
+</LinearLayout>
